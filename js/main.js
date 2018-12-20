@@ -12,7 +12,7 @@
                 window.clearInterval(id)
                 fn.call()
             }
-        },10)
+        },20)
     }
     let code = `
     /*首先,准备皮卡丘的皮肤*/
@@ -153,7 +153,7 @@
         border-radius: 50%;
       }
 
-      /* 好啦 , 这只皮卡丘就送给你啦! */
+      /* 好啦 , 这只皮卡丘就送给你啦! 哈哈哈*/
     `
     writeCode('',code)
 }.call()
