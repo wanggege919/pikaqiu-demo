@@ -9,13 +9,13 @@ body{
     flex-direction: column;
 }
 .code-wrapper{
-   flex:1;
-   height: 50%;
+   flex:0.3;
+   height: 30%;
    padding: 10px;
 }
 .preview-wrapper{
-    flex: 1;
-    height: 50%;
+    flex: 0.7;
+    height: 70%;
 }
 #code{
     overflow: hidden;
@@ -41,130 +41,15 @@ body{
 .action>button:focus{
     outline: none;
 }
-/* .preview{
-  height: 100%;
-  border: 1px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: #ffdc42;
-}
-.wrapper{
-  width: 100%;
-  height: 165px;
-  position: relative;
-}
-.noes{
-  width: 0px;
-  height: 0px;
-  border: 11px solid black;
-  border-color: black transparent transparent transparent;
-  border-width: 10px 12px;
-  border-radius:11px;
-  position: absolute;
-  left: 50%;
-  top: 28px;
-  transform: translateX(-50%);
-}
-.eye{
-  width: 49px;
-  height: 49px;
-  background: #2e2e2e;
-  border-radius: 50%;
-  border: 2px solid #000000;
-}
-.eye::after{
-  content: '';
-  display: block;
-  width: 24px;
-  height: 24px;
-  background: white;
-  border-radius: 50%;
-  position: absolute;
-  left: 6px;
-  border: 2px solid #000;
-  top: -1px;
-}
-.eye.left{
-  position: absolute;
-  right: 50%;
-  margin-right: 72px;
-}
-.eye.right{
-  position: absolute;
-  left: 50%;
-  margin-left: 72px;
-}
-.face{
-  width: 68px;
-  height: 68px;
-  background: #ff251a;
-  position: absolute;
-  border-radius: 50%;
-  border: 2px solid #000;
-}
-.face.left{
-  right: 50%;
-  margin-right: 110px;
-  top: 85px;
-}
 
-.face.right{
-  left: 50%;
-  margin-left: 110px;
-  top: 85px;
+ul {
+    display: table;
+    list-style: none;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 0;
 }
-
-.upperLip{
-  width: 80px;
-  height: 25px;
-  border: 3px solid black;
-  position: absolute;
-  top: 50px;
-  background: #ffdc42;
-  z-index: 1
-}
-.upperLip.left{
-  border-top: none;
-  border-right: none;
-  transform: rotate(-20deg);
-  border-bottom-left-radius: 40px 25px;
-  right: 50%;
-}
-
-.upperLip.right{
-  border-top: none;
-  border-left: none;
-  transform: rotate(20deg);
-  border-bottom-right-radius: 40px 25px;
-  left: 50%;
-}
-.lowerLip-wrapper{
-  width: 200px;
-  height: 115px;
-  position: absolute;
-  left: 50%;
-  bottom: -10px;
-  margin-left: -100px;
-  overflow: hidden;
-}
-.lowerLip{
-  width: 200px;
-  height: 3500px;
-  background: #a61413;
-  border-radius: 200px/1500px;
-  position: absolute;
-  bottom: 0px;
-  border: 2px solid #000;
-  overflow: hidden;
-}
-.lowerLip::after{
-  content: '';
-  position: absolute;
-  bottom: -10px;
-  width: 100px;
-  height: 100px;
-  background: #ff5d62;
-  left: 50px;
-  border-radius: 50%;
-} */
+ ul li {
+    display: inline-block;
+    float: left;
+ }
